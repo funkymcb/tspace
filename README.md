@@ -6,17 +6,17 @@ easily create new sessions by using the cli or importing jsons.
 # example tspace json
 ```json
 {
+    "session_name": {
+        "window1_name": "number of panes and split orientation (h/v)",
+        "window2_name": "number of panes and split orientation (h/v)"
+    },
     "clusters": {
-        "prod": 1,
-        "staging": 2
+        "prod": "1",
+        "staging": "2h"
     },
     "code": {
-        "api": 2,
-        "frontend": 1
-    },
-    "session_name": {
-        "window1_name": "number of panes as int",
-        "window2_name": "number of panes as int"
+        "api": "2v",
+        "frontend": "1"
     }
 }
 ```
